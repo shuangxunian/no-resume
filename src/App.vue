@@ -1,5 +1,5 @@
 <script setup>
-import { Leafer, Rect, Frame, Text, Line, Image } from 'leafer-ui'
+import { Leafer, Rect, Frame, Box, Text, Line, Image } from 'leafer-ui'
 import { ref, onMounted } from 'vue'
 // const resumeWidth = ref(0)
 // const resumeAllData = ref([])
@@ -78,10 +78,12 @@ function addDom(op) {
     name: newDomName,
     data: {}
   }
-  const frame = new Frame({  
-    width: 100,
-    height: 100,
-    fill: 'rgb(50,205,121)',
+  const box = new Box({  
+    // width: 100,
+    height: 50,
+    fill: '#FF4B4B',
+    stroke: 'black',
+    // fill: 'rgb(50,205,121)',
     draggable: true
   })
   switch(op) {
@@ -96,8 +98,8 @@ function addDom(op) {
       break
   }
   mapList.value[op].list.push(newDomInfo)
-  frame.add(newDomInfo.data)
-  leafer.add(frame)
+  box.add(newDomInfo.data)
+  leafer.add(box)
 }
 
 function buildLeafer () {
