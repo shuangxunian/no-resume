@@ -1,6 +1,8 @@
 <script setup>
-import { Leafer, Rect, Frame, Box, Text, Line, Image } from 'leafer-ui'
+import { Leafer, Rect, Frame, Box, Text, Line, Image, PointerEvent } from 'leafer-ui'
 import { ref, onMounted } from 'vue'
+import LeftBody from './views/LeftBody.vue'
+import RightBody from './views/RightBody.vue'
 // const resumeWidth = ref(0)
 // const resumeAllData = ref([])
 // const dataList = ref([])
@@ -19,6 +21,11 @@ const mapList = ref({
   },
 })
 const nowClickMap = ref({})
+const pageInfo = ref({
+  pageWidth: 793,
+  pageHeight: 1400,
+  fill: '#fff',
+})
 let leafer
 
 
@@ -86,6 +93,11 @@ function addDom(op) {
     // fill: 'rgb(50,205,121)',
     draggable: true
   })
+
+  box.on(PointerEvent.DOWN, (e) => {
+    console.log(e)
+  })
+
   switch(op) {
     case 'img':
       getImgDom(newDomInfo)
@@ -105,9 +117,14 @@ function addDom(op) {
 function buildLeafer () {
   leafer = new Leafer({
     view: 'resume', // 支持 window 、div、canvas 标签对象， 可使用id字符串(不用加 # 号)
-    width: 793, // 不能设置为 0， 否则会变成自动布局
-    height: 600,
-    fill: 'gray'
+    width: pageInfo.value.pageWidth,
+    height: pageInfo.value.pageHeight,
+    fill: pageInfo.value.fill,
+    // width: 793, // 不能设置为 0， 否则会变成自动布局
+    // height: 1400,
+    // fill: 'gray',
+    // hittable: false
+    // draggable: false
   })
 
 }
@@ -121,9 +138,15 @@ onMounted(() => {
 
 <template>
   <div class="main">
-    <div class="left-body"></div>
+    <div class="left-body">
+      <LeftBody
+        :pageInfo="pageInfo"
+      />
+    </div>
     <div class="mid-body">
-      <div class="resume" id="resume">
+      <el-scrollbar>
+        <div class="resume" id="resume"></div>
+      </el-scrollbar>
         <!-- <lfLeafer :width="793" :height="1122">
           <lfFrame :width="300" :height="300" fill="#0f0">
             <lfRect
@@ -132,12 +155,12 @@ onMounted(() => {
             />
           </lfFrame>
         </lfLeafer> -->
-      </div>
     </div>
     <div class="right-body">
-      <p @click="addDom('img')">图片</p>
+      <RightBody/>
+      <!-- <p @click="addDom('img')">图片</p>
       <p @click="addDom('text')">文字</p>
-      <p @click="addDom('line')">分割线</p>
+      <p @click="addDom('line')">分割线</p> -->
     </div>
   </div>
   <!-- <el-row class="mb-4">
@@ -170,28 +193,36 @@ onMounted(() => {
 <style lang="less" scoped>
 .main {
   min-width: 1500px;
-  margin-top: 75px;
   display: flex;
-  overflow: auto;
+  height: 100vh;
+  overflow: hidden;
   justify-content: space-between;
   .left-body {
     width: 350px;
-    height: 100px;
-    background-color: red;
+    height: 100vh;
+    position: relative;
+    // height: 600px;
+    // background-color: #fff;
+    // flex: 0 0 auto;
   }
   .mid-body {
     // 算出来的21cm
-    min-width: 793px;
-    height: 1122px;
-    background-color: green;
+    width: 793px;
+    overflow: auto;
+    // height: 1122px;
+    // overflow: hidden;
+    // flex: 1 1 auto;
+    // overflow-y: auto;
     .resume {
       width: 100%;
     }
   }
   .right-body {
     width: 350px;
-    height: 100px;
-    // background-color: blue;
+    height: 100vh;
+    position: relative;
+    // height: 100px;
+    // flex: 0 0 auto;
   }
 }
 </style>
