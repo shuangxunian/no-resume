@@ -2,10 +2,7 @@
 import { Leafer, Rect, Frame, Box, Text, Line, Image, PointerEvent } from 'leafer-ui'
 import { ref, onMounted } from 'vue'
 import LeftBody from './views/LeftBody.vue'
-import RightBody from './views/RightBody.vue'
-// const resumeWidth = ref(0)
-// const resumeAllData = ref([])
-// const dataList = ref([])
+
 const mapList = ref({
   img : {
     num: 0,
@@ -26,33 +23,15 @@ const pageInfo = ref({
   pageHeight: 1400,
   fill: '#fff',
 })
+const activeName = ref('type')
+
+
+
+
 let leafer
+let frame
 
-
-
-function compareResumeWidth() {
-  // const dpi = window.devicePixelRatio || 96
-  // const inch = 21 / 2.54 * 96
-  // console.log(inch)
-  // const pixel = 29.7 / 2.54 * 96
-  // console.log(pixel)
-  // console.log(resumeWidth.value)
-}
-
- // const rect = Rect.one({ fill: '#32cd79' }, 100, 100, 200, 200)
-  // testMap.value = {
-  //   fill: 'rgb(50,205,121)',
-  //   text: 'Welcome to LeaferJS',
-  //   draggable: true
-  // }
-  // const text = new Text({
-  //   fill: 'rgb(50,205,121)',
-  //   text: 'Welcome to LeaferJS',
-  //   draggable: true
-  // })
-  // const text = new Text(testMap.value)
-  // leafer.add(text)
-  // console.log(111)
+function compareResumeWidth() {}
 
 function getImgDom(newDomInfo) {
   const img = new Image({
@@ -111,7 +90,7 @@ function addDom(op) {
   }
   mapList.value[op].list.push(newDomInfo)
   box.add(newDomInfo.data)
-  leafer.add(box)
+  frame.add(box)
 }
 
 function buildLeafer () {
@@ -120,12 +99,16 @@ function buildLeafer () {
     width: pageInfo.value.pageWidth,
     height: pageInfo.value.pageHeight,
     fill: pageInfo.value.fill,
-    // width: 793, // 不能设置为 0， 否则会变成自动布局
-    // height: 1400,
-    // fill: 'gray',
-    // hittable: false
-    // draggable: false
+    hittable: false
   })
+  frame = new Frame({ 
+    width: pageInfo.value.pageWidth,
+    height: pageInfo.value.pageHeight,
+    fill: pageInfo.value.fill,
+    hittable: true
+  })
+
+  leafer.add(frame)
 
 }
 
@@ -147,47 +130,20 @@ onMounted(() => {
       <el-scrollbar>
         <div class="resume" id="resume"></div>
       </el-scrollbar>
-        <!-- <lfLeafer :width="793" :height="1122">
-          <lfFrame :width="300" :height="300" fill="#0f0">
-            <lfRect
-              :width="100" :height="100" fill="#f00"
-              @tap="console.log('tag')"
-            />
-          </lfFrame>
-        </lfLeafer> -->
     </div>
     <div class="right-body">
-      <RightBody/>
-      <!-- <p @click="addDom('img')">图片</p>
-      <p @click="addDom('text')">文字</p>
-      <p @click="addDom('line')">分割线</p> -->
+      <div class="body">
+        <el-tabs v-model="activeName" class="demo-tabs" :stretch="true" @tab-click="handleClick">
+          <el-tab-pane class="type" label="字段属性" name="type">
+            <p @click="addDom('img')">图片</p>
+            <p @click="addDom('text')">文字</p>
+            <p @click="addDom('line')">分割线</p>
+          </el-tab-pane>
+          <el-tab-pane class="info" label="详细信息" name="info"></el-tab-pane>
+        </el-tabs>
+      </div>
     </div>
   </div>
-  <!-- <el-row class="mb-4">
-    <el-button>Default</el-button>
-    <el-button type="primary">Primary</el-button>
-    <el-button type="success">Success</el-button>
-    <el-button type="info">Info</el-button>
-    <el-button type="warning">Warning</el-button>
-    <el-button type="danger">Danger</el-button>
-  </el-row> -->
-  <!-- <div>
-    123
-  </div> -->
-  <!-- <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header> -->
-
-  <!-- <RouterView /> -->
 </template>
 
 <style lang="less" scoped>
@@ -221,8 +177,57 @@ onMounted(() => {
     width: 350px;
     height: 100vh;
     position: relative;
-    // height: 100px;
-    // flex: 0 0 auto;
+    .body {
+      margin-top: 75px;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 5px;
+      .demo-tabs {
+        width: 100%;
+        .info {
+          margin: 10px;
+          .page-height {
+            width: 100%;
+            display: flex;
+            margin-bottom: 10px;
+            .left {
+              width: 30%;
+              line-height: 32px;
+            }
+            .right {
+              width: 70%;
+            }
+          }
+          .page-width {
+            width: 100%;
+            display: flex;
+            margin-bottom: 10px;
+            .left {
+              width: 30%;
+              line-height: 32px;
+            }
+            .right {
+              width: 70%;
+            }
+          }
+        }
+        .model {
+          margin: 10px;
+          .model-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .model-card {
+              height: 100px;
+              width: 75px;
+              margin: 10px;
+              background-color: red;
+            }
+          }
+        }
+
+      }
+    }
   }
 }
 </style>

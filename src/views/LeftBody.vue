@@ -4,7 +4,7 @@ import { ref } from 'vue'
 const props = defineProps(['pageInfo'])
 
 console.log(props.pageInfo.pageWidth)
-// const activeName = ref('info')
+const activeName = ref('info')
 // const input = ref('')
 // const value = ref('')
 
