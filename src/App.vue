@@ -19,6 +19,7 @@ const mapList = ref({
   },
 })
 const nowClickMap = ref({})
+const nowClickTarget = ref({})
 const pageInfo = ref({
   pageWidth: 793,
   pageHeight: 1400,
@@ -28,7 +29,16 @@ const pageInfo = ref({
 watch(
   nowClickMap,
   (newValue, oldValue) => {
-    console.log(newValue, oldValue)
+    if (newValue.current.leafList.list[0]?.children[0]) {
+      nowClickTarget.value = newValue.current.leafList.list[0]?.children[0]
+      activeName.value = 'info'
+      console.log(nowClickTarget.value)
+    } else {
+      nowClickTarget.value = {}
+      activeName.value = 'type'
+    }
+    // console.log(newValue.current.leafList.list[0]?.children[0])
+    // console.log(newValue, oldValue)
   }
 )
 
@@ -54,6 +64,7 @@ function getTextDom(newDomInfo) {
   const text = new Text({
     // width: 100,
     // height: 50,
+    id: newDomInfo.name,
     fill: 'rgb(50,205,121)',
     text: '这里是一串文字',
     fontSize: '14',
@@ -119,6 +130,7 @@ function buildLeafer () {
     tree: { type: 'draw' },
     sky: { type: 'draw' },
     editor: {},
+    id: 'app',
     width: pageInfo.value.pageWidth,
     height: pageInfo.value.pageHeight,
     fill: '#fff',
@@ -126,7 +138,6 @@ function buildLeafer () {
 
   app.editor.on(EditorEvent.SELECT, e => {
     nowClickMap.value = e
-    // console.log(e)
   })
 
   // leafer = new Leafer({
