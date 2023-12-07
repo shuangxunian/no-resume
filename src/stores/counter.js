@@ -10,3 +10,24 @@ export const useCounterStore = defineStore('counter', () => {
 
   return { count, doubleCount, increment }
 })
+
+export const useDomMapStore = defineStore('domMap', {
+  state: () => {
+    return {
+      mapList: {
+        img : {
+          num: 0,
+          list: []
+        },
+        text : {
+          num: 0,
+          list: []
+        },
+        line : {
+          num: 0,
+          list: []
+        },
+      }
+    }
+  }
+})

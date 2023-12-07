@@ -1,7 +1,8 @@
 <script setup>
-import { Leafer, Rect, Frame, Box, Text, Line, Image, PointerEvent } from 'leafer-ui'
-import { ref, onMounted } from 'vue'
+import { App, Leafer, Rect, Frame, Box, Text, Line, Image, PointerEvent } from 'leafer-ui'
+import { ref, onMounted, watch } from 'vue'
 import LeftBody from './views/LeftBody.vue'
+import { EditorEvent } from '@leafer-in/editor'
 
 const mapList = ref({
   img : {
@@ -23,6 +24,14 @@ const pageInfo = ref({
   pageHeight: 1400,
   fill: '#fff',
 })
+
+watch(
+  nowClickMap,
+  (newValue, oldValue) => {
+    console.log(newValue, oldValue)
+  }
+)
+
 const activeName = ref('type')
 
 
@@ -30,6 +39,7 @@ const activeName = ref('type')
 
 let leafer
 let frame
+let app
 
 function compareResumeWidth() {}
 
@@ -42,10 +52,19 @@ function getImgDom(newDomInfo) {
 
 function getTextDom(newDomInfo) {
   const text = new Text({
-    fill: 'rgb(0,0,0)',
+    // width: 100,
+    // height: 50,
+    fill: 'rgb(50,205,121)',
     text: '这里是一串文字',
+    fontSize: '14',
+    padding: [10, 0]
+    // ITextDecoration: 'none',
+    // textWrap: 'normal',
     // draggable: true
   })
+  // text.on(PointerEvent.UP, (e) => {
+  //   console.log('up', e)
+  // })
   newDomInfo.data = text
 }
 
@@ -64,18 +83,17 @@ function addDom(op) {
     name: newDomName,
     data: {}
   }
-  const box = new Box({  
-    // width: 100,
-    height: 50,
-    fill: '#FF4B4B',
-    stroke: 'black',
-    // fill: 'rgb(50,205,121)',
-    draggable: true
+  const box = new Box({
+    x: 100,
+    y: 100,
+    editable: true,
+    draggable: true,
+    children: []
   })
 
-  box.on(PointerEvent.DOWN, (e) => {
-    console.log(e)
-  })
+  // box.on(PointerEvent.DOWN, (e) => {})
+
+  // box.on(PointerEvent.UP, (e) => {})
 
   switch(op) {
     case 'img':
@@ -89,31 +107,56 @@ function addDom(op) {
       break
   }
   mapList.value[op].list.push(newDomInfo)
+  // frame.add(newDomInfo.data)
   box.add(newDomInfo.data)
-  frame.add(box)
+  app.tree.add(box)
 }
 
 function buildLeafer () {
-  leafer = new Leafer({
-    view: 'resume', // 支持 window 、div、canvas 标签对象， 可使用id字符串(不用加 # 号)
+  app = new App({
+    view: 'resume',
+    ground: { type: 'draw' },
+    tree: { type: 'draw' },
+    sky: { type: 'draw' },
+    editor: {},
     width: pageInfo.value.pageWidth,
     height: pageInfo.value.pageHeight,
-    fill: pageInfo.value.fill,
-    hittable: false
-  })
-  frame = new Frame({ 
-    width: pageInfo.value.pageWidth,
-    height: pageInfo.value.pageHeight,
-    fill: pageInfo.value.fill,
-    hittable: true
+    fill: '#fff',
   })
 
-  leafer.add(frame)
+  app.editor.on(EditorEvent.SELECT, e => {
+    nowClickMap.value = e
+    // console.log(e)
+  })
+
+  // leafer = new Leafer({
+  //   view: 'resume',
+  //   width: pageInfo.value.pageWidth,
+  //   height: pageInfo.value.pageHeight,
+  //   fill: '#000',
+  //   type: 'draw',
+  //   editor: {},
+  //   wheel: {
+  //     preventDefault: false
+  //   },
+  //   move: {
+  //     dragOut: false
+  //   }
+  //   // hittable: false
+  // })
+  // frame = new Frame({ 
+  //   width: pageInfo.value.pageWidth,
+  //   height: pageInfo.value.pageHeight,
+  //   fill: pageInfo.value.fill,
+  //   // hittable: true
+  // })
+
+  // leafer.add(frame)
 
 }
 
 onMounted(() => {
-  compareResumeWidth()
+  // compareResumeWidth()
   buildLeafer()
 })
 
