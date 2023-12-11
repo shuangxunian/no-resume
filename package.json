@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@leafer-in/editor": "^1.0.0-rc.7",
+    "@scena/guides": "^0.29.2",
     "element-plus": "^2.4.1",
     "leafer-ui": "^1.0.0-rc.7",
     "pinia": "^2.1.7",
