@@ -1,10 +1,17 @@
 <script setup>
+import { ref } from 'vue'
 const iconList = [
-  { name: 'icon-editor-text' },
-  { name: 'icon-fengexian' },
-  { name: 'icon-kuang' },
-  { name: 'icon-tupian_huaban' },
+  { name: 'icon-editor-text', content: '文字', type: 'text' },
+  { name: 'icon-fengexian', content: '线', type: 'line' },
+  { name: 'icon-kuang', content: '框', type: 'box' },
+  { name: 'icon-tupian', content: '图片', type: 'img' },
 ]
+
+const nowSelectOp = ref({})
+function selectOp(item) {
+  nowSelectOp.value = item
+}
+
 
 function gotoGithub () {
   window.open('https://github.com/shuangxunian/no-resume','_blank')
@@ -19,11 +26,23 @@ function gotoGithub () {
       <h1 class="title">不做简历</h1>
     </div>
     <div class="mid">
-      <div class="icon-box" v-for="(item, index) in iconList" :key="index">
-        <i class="iconfont" :class="item.name"></i>
+      <div class="icon-box" :class="nowSelectOp.type === item.type ? 'select-icon-box' : ''" v-for="(item, index) in iconList" :key="index" @click="selectOp(item)">
+        <el-tooltip
+          effect="dark"
+          :content="item.content"
+          placement="bottom"
+        >
+          <i class="iconfont" :class="item.name"></i>
+        </el-tooltip>
       </div>
     </div>
-    <div class="right"></div>
+    <div class="right">
+      <div class="button">
+        <el-button type="primary">代码导出</el-button>
+        <el-button type="primary">图片导出</el-button>
+      </div>
+
+    </div>
   </div>
 </template>
 
@@ -50,20 +69,27 @@ function gotoGithub () {
   }
   .mid {
     width: 300px;
-    line-height: 40px;
     display: flex;
     .icon-box {
       width: 32px;
       height: 32px;
       margin: 4px 2px;
       border-radius: 4px;
+      line-height: 32px;
+      text-align: center;
+    }
+    .select-icon-box {
+      background-color: #e9e7ef;
     }
   }
   .mid :hover {
-    background-color: red;
+    background-color: #f0f0f4;
   }
   .right {
-    width: 300px;
+    margin-right: 10px;
+    .button {
+      margin-top: 4px;
+    }
   }
 }
 </style>
