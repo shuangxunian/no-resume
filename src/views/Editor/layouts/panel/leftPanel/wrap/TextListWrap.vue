@@ -81,8 +81,8 @@ const basicTextList = ref([
     title: "+ 添加文字",
     json: {
       tag: "Text",
-      text: "输入文本",
-      fontSize: 14,
+      text: "这里是用来作为正文使用的字段，建议您在使用的过程中使用较长的文字，如：工作经历、产出等",
+      fontSize: 10,
       fontWeight: "normal",
     }
   }
@@ -94,8 +94,8 @@ const handleClick = (item: any) => {
       name: getDefaultName(editor.contentFrame),
       // draggable: true,
       editable: true,
-      x: 0,
-      y: 0,
+      x: 50,
+      y: 50,
       // TODO 2023-11-10 这里官方有bug，在new Text对象时fill参数传入数组后返回的fill值格式不对，已反馈 等待修复
       fill: [
         {
