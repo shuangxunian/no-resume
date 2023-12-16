@@ -9,7 +9,7 @@ import CanvasAttr from './attrs/canvasAttr.vue'
 import BoxAttr from './attrs/boxAttr.vue'
 import FillAttr from "./attrs/fillAttr.vue";
 import StrokeAttr from "./attrs/strokeAttr.vue";
-import VirtualElementAttr from "./attrs/VirtualElementAttr.vue";
+import VirtualElementAttr from "./attrs/virtualElementAttr.vue";
 import {appInstance, useEditor} from "@/views/Editor/app";
 import {typeUtil} from "@/views/Editor/utils/utils";
 
