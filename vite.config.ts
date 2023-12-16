@@ -9,6 +9,7 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 const config=({mode})=>{
     return{
+        base: './',
         plugins: [
             vue(),
             // 自动按需引入组件
