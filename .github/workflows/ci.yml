@@ -45,6 +45,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
+          branch: gh-pages
           path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
