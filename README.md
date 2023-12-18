@@ -41,5 +41,9 @@ Vite 是一种具有明确建议的工具，具备合理的默认设置。Vite �
 
 
 ## 开源协议
+知识应当流通与分享，真理亦是如此。
+
+希望阅读到此的您可以用自己的能力为leafer添砖加瓦~
+
 遵循[MIT协议](https://github.com/shuangxunian/no-resume/blob/main/LICENSE)
 
