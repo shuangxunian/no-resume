@@ -1,0 +1,892 @@
+{
+	"tag": "Frame",
+	"id": "1a309c91-f5bd-46ce-95a8-b2c3c866a002",
+	"name": "workspace",
+	"width": 793,
+	"height": 1122,
+	"fill": [
+		{
+			"type": "solid",
+			"color": "#FFFFFF"
+		}
+	],
+	"children": [
+		{
+			"tag": "Rect",
+			"name": "图层1",
+			"x": 1,
+			"y": 0,
+			"width": 792,
+			"height": 40,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(45, 62, 80, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "求职意向：不做简历",
+			"fontSize": 21,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层2",
+			"x": 20,
+			"y": 5,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "求职地点：杭州",
+			"fontSize": 21,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层3",
+			"x": 630,
+			"y": 5,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Image",
+			"url": "https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/14/657aba4355874.png",
+			"width": 140,
+			"height": 200,
+			"name": "图层4",
+			"x": 630,
+			"y": 60,
+			"draggable": true,
+			"editable": true,
+			"fill": {
+				"type": "image",
+				"mode": "strench",
+				"url": "https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/14/657aba4355874.png"
+			}
+		},
+		{
+			"tag": "Rect",
+			"name": "图层5",
+			"x": 0,
+			"y": 60,
+			"width": 140,
+			"height": 40,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(45, 62, 80, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层6",
+			"x": 160,
+			"y": 60,
+			"width": 450,
+			"height": 40,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(229, 231, 232, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "基 本 资 料",
+			"fontSize": 18,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层7",
+			"x": 24,
+			"y": 67,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "毕业院校：北京大学",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层8",
+			"x": 200,
+			"y": 150,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "求职意向：不做简历",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层9",
+			"x": 40,
+			"y": 150,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 140,
+			"height": 16,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "姓      名：不做简历",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层10",
+			"x": 40,
+			"y": 120,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 140,
+			"height": 16,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "性别：男",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层11",
+			"x": 360,
+			"y": 120,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "政治面貌：群      众",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层12",
+			"x": 40,
+			"y": 180,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 140,
+			"height": 16,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "出生年月：2023/12/18",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层13",
+			"x": 200,
+			"y": 120,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "专业：计算机科学",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层14",
+			"x": 360,
+			"y": 150,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "学历：本科",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层15",
+			"x": 360,
+			"y": 180,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "籍贯：杭州",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层16",
+			"x": 200,
+			"y": 180,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Rect",
+			"name": "图层17",
+			"x": 0,
+			"y": 220,
+			"width": 140,
+			"height": 40,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(45, 62, 80, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层18",
+			"x": 160,
+			"y": 220,
+			"width": 450,
+			"height": 40,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(229, 231, 232, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "自 我 评 价",
+			"fontSize": 18,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层19",
+			"x": 24,
+			"y": 227,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 713,
+			"height": 50,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "本人性格热情开朗，待人友好，为人真诚谦虚。能吃苦耐劳，尽职尽责，有耐心。善于与人沟通。学习刻苦认真，成绩优秀，连续三年获学院奖学金。为人诚恳勤奋好学脚踏实地，有较强的团队精神，工作积极进取，态度认真。抗压能力和强烈的责任感。通过实习和自修学习了财务的相关知识对经济和金融有所认识，有较强的数理分析能力。",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textOverflow": "show",
+			"name": "图层20",
+			"x": 40,
+			"y": 270,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Rect",
+			"name": "图层21",
+			"x": 0,
+			"y": 330,
+			"width": 140,
+			"height": 40,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(45, 62, 80, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层22",
+			"x": 160,
+			"y": 330,
+			"width": 633,
+			"height": 40,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(229, 231, 232, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层23",
+			"x": 0,
+			"y": 800,
+			"width": 140,
+			"height": 40,
+			"scaleX": 1,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(45, 62, 80, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层24",
+			"x": 160,
+			"y": 800,
+			"width": 633,
+			"height": 40,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(229, 231, 232, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"width": 673,
+			"height": 60,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "程序设计基础、数据结构与算法、操作系统、编译原理、数据库系统、算法分析、软件工程、离散数学、电路与电子学、数字逻辑和数字系统、计算机组成原理、计算机系统结构、计算机网络原理等。",
+			"fontSize": 10,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层25",
+			"x": 60,
+			"y": 880,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 200,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "•   组织活动",
+			"fontFamily": "Microsoft Yahei",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层26",
+			"x": 60,
+			"y": 410,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 102.30411948990844,
+			"height": 25.52402285011651,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "教 育 背 景",
+			"fontSize": 18,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层27",
+			"x": 24,
+			"y": 807,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"height": 20,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "大学行知助学社  社团部部长",
+			"fontSize": 14,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层28",
+			"x": 40,
+			"y": 380,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 90,
+			"height": 20,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2017 – 2021",
+			"fontSize": 14,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层29",
+			"x": 527,
+			"y": 380,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"height": 30,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "项 目 经 历",
+			"fontSize": 18,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层30",
+			"x": 21,
+			"y": 337,
+			"scaleY": 1,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 200,
+			"height": 24,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "北京大学    计算机科学",
+			"fontSize": 16,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层31",
+			"x": 40,
+			"y": 850,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 90,
+			"height": 20,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2017-2021",
+			"fontSize": 14,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层32",
+			"x": 520,
+			"y": 850,
+			"draggable": true,
+			"editable": true
+		}
+	]
+}
