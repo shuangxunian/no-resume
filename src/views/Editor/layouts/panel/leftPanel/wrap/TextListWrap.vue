@@ -76,8 +76,13 @@ const handleClick = (item: any) => {
         .mid-h {
           font-size: 18px;
         }
+        .bold-text {
+          font-size: 14px;
+          font-weight: 700;
+        }
         .main-text {
-          font-size: 11px;
+          font-size: 14px;
+          font-weight: 400;
         }
       }
       .show-text :hover {
