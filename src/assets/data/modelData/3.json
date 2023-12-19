@@ -1,0 +1,478 @@
+{
+	"tag": "Frame",
+	"id": "7b6b1709-23bd-4ea3-bbcd-f52f81b2b7ab",
+	"name": "workspace",
+	"width": 793,
+	"height": 1122,
+	"fill": [
+		{
+			"type": "solid",
+			"color": "#FFFFFF"
+		}
+	],
+	"children": [
+		{
+			"tag": "Rect",
+			"name": "图层1",
+			"x": 48,
+			"y": 0,
+			"width": 697,
+			"height": 50,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(216, 216, 216, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"width": 160,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "个人简历",
+			"fontSize": 40,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层2",
+			"x": 316,
+			"y": -5,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "姓      名：",
+			"fontSize": 14,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层3",
+			"x": 70,
+			"y": 70,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 150,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "不做简历",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层4",
+			"x": 150,
+			"y": 70,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "出生年月：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层5",
+			"x": 320,
+			"y": 70,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 150,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2023.12",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层6",
+			"x": 400,
+			"y": 70,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "民      族：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层7",
+			"x": 70,
+			"y": 100,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 150,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "汉族",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层8",
+			"x": 150,
+			"y": 100,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "身      高：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层9",
+			"x": 320,
+			"y": 100,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 150,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "180",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层10",
+			"x": 400,
+			"y": 100,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "电      话：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层11",
+			"x": 70,
+			"y": 130,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 150,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "13012345678",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层12",
+			"x": 150,
+			"y": 130,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "政治面貌：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层13",
+			"x": 320,
+			"y": 130,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 150,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "团员",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层14",
+			"x": 400,
+			"y": 130,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "邮      箱：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层15",
+			"x": 70,
+			"y": 50,
+			"draggable": true,
+			"editable": true
+		}
+	]
+}
