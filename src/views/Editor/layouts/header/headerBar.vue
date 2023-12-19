@@ -46,22 +46,15 @@ import { useEditor } from "@/views/Editor/app";
 import { Platform, Group, Text, Line, Rect, Image } from "leafer-ui";
 import { getDefaultName } from "@/views/Editor/utils/utils";
 import Zoom from "./left/zoom.vue";
-import Operation from "./left/operation.vue";
-import Undo from "./left/undo.vue";
-import FileOper from "./left/fileOper.vue";
 import SaveOper from "./right/saveOper.vue";
-import ToolBar from "./center/toolBar.vue";
-import { isDefined } from "@vueuse/core";
-import { typeUtil } from "@/views/Editor/utils/utils";
 
 Platform.image.suffix = "";
-const { canvas, keybinding, editor } = useEditor();
-// import LineGuides from "@/views/Editor/layouts/canvasEdit/lineGuides.vue";
+const {  keybinding, editor } = useEditor();
 
 const changeLineGuides = () => {
   keybinding.trigger("shift+r");
-};
-const dragStart = (e: Element, item: any) => {};
+}
+const dragStart = (e: Element, item: any) => {}
 
 const iconList = ref([
   { name: "icon-24gl-pointer", content: "选择", type: "point" },
@@ -76,19 +69,15 @@ const nowSelectOp = ref({
   name: "icon-24gl-pointer",
   content: "选择",
   type: "point",
-});
+})
 
-function selectOp(item) {
+function selectOp(item: any) {
   if (item === -1) {
-    nowSelectOp.value = {
-      name: "icon-biaochi",
-      content: "标尺",
-      type: "ruler",
-    };
+    changeLineGuides()
   } else {
-    nowSelectOp.value = item;
+    nowSelectOp.value = item
+    iconClick(item)
   }
-  iconClick(item);
 }
 
 function gotoGithub() {
@@ -156,14 +145,13 @@ const addImg = (item: any) => {
 }
 
 const iconClick = (item: any) => {
-  console.log(item);
   if (item.type === "text") {
     addText({
       title: "+ 添加文字",
       json: {
         tag: "Text",
         text: "这里是用来作为正文使用的字段，建议您在使用的过程中使用较长的文字，如：工作经历、产出等",
-        fontSize: 10,
+        fontSize: 11,
         fontWeight: "normal",
       },
     })
@@ -183,7 +171,7 @@ const iconClick = (item: any) => {
     })
   } else if (item.type === 'img') {
     addImg({
-      title: "+ 添加直线",
+      title: "+ 添加图片",
       json: {
         tag: "Img",
       },

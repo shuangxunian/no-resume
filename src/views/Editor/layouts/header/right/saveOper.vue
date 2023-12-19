@@ -57,7 +57,7 @@ const save = () => {
     let json = editor.contentFrame.toJSON()
     console.log(json)
 }
-const handleSelect = (v) => {
+const handleSelect = (v: any) => {
     let fileName = uuidv4()
     switch (v) {
         case 'png':
