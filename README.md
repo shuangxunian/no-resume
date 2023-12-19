@@ -45,6 +45,7 @@ Vite 是一种具有明确建议的工具，具备合理的默认设置。Vite �
 ## 鸣谢
 - [leafer](https://www.leaferjs.com/)
 - [果子米-开源海报设计器](https://github.com/LvHuaiSheng/gzm-design)
+- 为本项目添加模板的人
 
 
 ## 开源协议
@@ -54,7 +55,7 @@ Vite 是一种具有明确建议的工具，具备合理的默认设置。Vite �
 
 如您也想为此项目舔砖加瓦，可以有以下两种操作：
 1. 设计好模板后选择导出成json，然后将此文件发送给： shuangxunian@gmail.com 即可，并在内容里面注明是否希望公开作者，并写清作者姓名。
-2. 捐赠 ![](https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/18/657ff17065a26.png)
+2. 捐赠 ![](./public/2.png)
 
 遵循[MIT协议](https://github.com/shuangxunian/no-resume/blob/main/LICENSE)
 
