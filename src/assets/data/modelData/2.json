@@ -1,0 +1,1855 @@
+{
+	"tag": "Frame",
+	"id": "db3ab764-9fb8-4c3f-ae20-99ba208a177c",
+	"name": "workspace",
+	"width": 793,
+	"height": 1122,
+	"fill": [
+		{
+			"type": "solid",
+			"color": "rgba(255, 255, 255, 1)"
+		}
+	],
+	"children": [
+		{
+			"tag": "Rect",
+			"name": "图层4",
+			"blendMode": "multiply",
+			"visible": true,
+			"zIndex": -2,
+			"x": 0,
+			"y": 300,
+			"width": 275,
+			"height": 35,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(25, 99, 210, 1)"
+				}
+			],
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(25, 99, 210, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Image",
+			"url": "https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/14/657aba4355874.png",
+			"width": 120,
+			"height": 159.9999999999999,
+			"name": "图层1",
+			"x": 77.5,
+			"y": 50,
+			"draggable": true,
+			"editable": true,
+			"fill": {
+				"type": "image",
+				"mode": "strench",
+				"url": "https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/14/657aba4355874.png"
+			}
+		},
+		{
+			"tag": "Text",
+			"width": 120,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "不做简历",
+			"fontSize": 21,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"name": "图层2",
+			"x": 77.5,
+			"y": 240,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 150,
+			"height": 24.49999999999997,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "求职意向：市场专员",
+			"fontSize": 15,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"name": "图层3",
+			"x": 62.5,
+			"y": 260,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"height": 30,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "个人介绍",
+			"fontSize": 18,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层5",
+			"x": 300,
+			"y": 50,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Line",
+			"name": "图层6",
+			"x": 300,
+			"y": 100,
+			"width": 450,
+			"rotation": 0,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(15, 16, 15, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"width": 450,
+			"height": 80,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "自我学习能力还是比较强的，想做的事很认真。专业知识扎实，有积极的工作态度，能够独立工作，又有团队精神。具有良好的文化素质，在未来的工作中，我将以充沛的精力，努力工作，稳定地进步自己的工作能力。我正在寻找一个更好的发展平台，希望能够充分发挥自己的优势，共同努力成就―番事业。",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"verticalAlign": "middle",
+			"name": "图层7",
+			"x": 300,
+			"y": 110,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 220,
+			"height": 100,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			],
+			"text": "姓名：某某某\n出生年月：2023/12/19\n手机：12345678901\n邮箱：12345@qq.com\n地址：北京\n健康状况：健康",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"verticalAlign": "top",
+			"name": "图层8",
+			"x": 6,
+			"y": 350,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"height": 30,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "个人资料",
+			"fontSize": 18,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层9",
+			"x": 20,
+			"y": 302.5,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Rect",
+			"name": "图层10",
+			"x": 0,
+			"y": 500,
+			"width": 275,
+			"height": 35,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(25, 99, 210, 1)"
+				}
+			],
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(25, 99, 210, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"height": 30,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "联系方式",
+			"fontSize": 18,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层11",
+			"x": 20,
+			"y": 502.5,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 220,
+			"height": 60,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			],
+			"text": "手机：12345678901\n邮箱：12345@qq.com\n地址：北京市海淀区",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层12",
+			"x": 0,
+			"y": 550,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Rect",
+			"name": "图层13",
+			"x": 0,
+			"y": 660,
+			"width": 275,
+			"height": 35,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(25, 99, 210, 1)"
+				}
+			],
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(25, 99, 210, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"height": 30,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "掌握技能",
+			"fontSize": 18,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层14",
+			"x": 20,
+			"y": 662.5,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 60,
+			"height": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			],
+			"text": "平面设计：\n办公软件：\nCSS：\n其他：",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 140
+			},
+			"verticalAlign": "middle",
+			"name": "图层15",
+			"x": 20,
+			"y": 735,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"height": 20,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			],
+			"text": "软件",
+			"fontSize": 15,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层16",
+			"x": 20,
+			"y": 710,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"height": 20,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			],
+			"text": "语言",
+			"fontSize": 15,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层17",
+			"x": 20,
+			"y": 830,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 60,
+			"height": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			],
+			"text": "普通话：\n英语：\n上海话：\n其他：",
+			"fontSize": 11,
+			"fontWeight": "medium",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 140
+			},
+			"verticalAlign": "middle",
+			"name": "图层18",
+			"x": 20,
+			"y": 855,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Rect",
+			"name": "图层27",
+			"x": 100,
+			"y": 745,
+			"width": 50,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(151,151,151,1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层28",
+			"x": 100,
+			"y": 760,
+			"width": 50,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(151,151,151,1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层29",
+			"x": 100,
+			"y": 775,
+			"width": 50,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(151,151,151,1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层30",
+			"x": 100,
+			"y": 790,
+			"width": 50,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(151,151,151,1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层31",
+			"x": 100,
+			"y": 865,
+			"width": 50,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(151,151,151,1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层32",
+			"x": 100,
+			"y": 880,
+			"width": 50,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(151,151,151,1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层33",
+			"x": 100,
+			"y": 895,
+			"width": 50,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(151,151,151,1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层34",
+			"x": 100,
+			"y": 910,
+			"width": 50,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(151,151,151,1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"width": 90,
+			"height": 30,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "工作经历",
+			"fontSize": 18,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层35",
+			"x": 300,
+			"y": 200,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Line",
+			"name": "图层36",
+			"x": 300,
+			"y": 250,
+			"width": 450,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"height": 16.5,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2008.8-2012.5",
+			"fontSize": 10,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层37",
+			"x": 300,
+			"y": 260,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(52, 132, 212, 1)"
+				}
+			],
+			"text": "市场经理助理",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层38",
+			"x": 300,
+			"y": 280,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "阿里巴巴公司",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层39",
+			"x": 400,
+			"y": 260,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"height": 40,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "负责公司团队组织建设，团队精神的培养，协调各部位工作，组织策划团队成员大会，竟选会、团队培训、招募新成员等工作;",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层40",
+			"x": 400,
+			"y": 280,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"height": 16.5,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2008.8-2012.5",
+			"fontSize": 10,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层41",
+			"x": 300,
+			"y": 340,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(52, 132, 212, 1)"
+				}
+			],
+			"text": "市场经理",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层42",
+			"x": 300,
+			"y": 360,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"height": 16.5,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "腾讯公司",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层43",
+			"x": 400,
+			"y": 340,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"height": 40,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "负责公司团队组织建设，团队精神的培养，协调各部位工作，组织策划团队成员大会，竟选会、团队培训、招募新成员等工作;",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层44",
+			"x": 400,
+			"y": 360,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2008.8-2012.5",
+			"fontSize": 10,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层45",
+			"x": 300,
+			"y": 420,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(52, 132, 212, 1)"
+				}
+			],
+			"text": "部位经理",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层46",
+			"x": 300,
+			"y": 440,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "百度公司",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层47",
+			"x": 400,
+			"y": 420,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "负责公司团队组织建设，团队精神的培养，协调各部位工作，组织策划团队成员大会，竟选会、团队培训、招募新成员等工作;",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层48",
+			"x": 400,
+			"y": 440,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Line",
+			"name": "图层49",
+			"x": 300,
+			"y": 550,
+			"width": 450,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"height": 30,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "教育经历",
+			"fontSize": 18,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层50",
+			"x": 300,
+			"y": 500,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2008.8-2012.5",
+			"fontSize": 10,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层51",
+			"x": 300,
+			"y": 560,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(52, 132, 212, 1)"
+				}
+			],
+			"text": "艺术设计",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层52",
+			"x": 300,
+			"y": 580,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "中国传媒大学",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层53",
+			"x": 400,
+			"y": 560,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"height": 40,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "熟练操作photoshop、llustrator、Dreamweaver、CelDRAW等图形，图像设计软件，并能独力设计，制作各种广告，设计宣传。",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层54",
+			"x": 400,
+			"y": 580,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2008.8-2012.5",
+			"fontSize": 10,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层55",
+			"x": 300,
+			"y": 640,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(52, 132, 212, 1)"
+				}
+			],
+			"text": "三维动画设计",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层56",
+			"x": 300,
+			"y": 660,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "燕山大学",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层57",
+			"x": 400,
+			"y": 640,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"height": 40,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "熟练操作photoshop、llustrator、Dreamweaver、CelDRAW等图形，图像设计软件，并能独力设计，制作各种广告，设计宣传。",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层58",
+			"x": 399,
+			"y": 660,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2008.8-2012.5",
+			"fontSize": 10,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层59",
+			"x": 300,
+			"y": 720,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 75,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(52, 132, 212, 1)"
+				}
+			],
+			"text": "视觉设计",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"textAlign": "center",
+			"name": "图层60",
+			"x": 300,
+			"y": 740,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "北京大学研究生院",
+			"fontSize": 11,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层61",
+			"x": 400,
+			"y": 720,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 340,
+			"height": 40,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "熟练操作photoshop、llustrator、Dreamweaver、CelDRAW等图形，图像设计软件，并能独力设计，制作各种广告，设计宣传。",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层62",
+			"x": 400,
+			"y": 740,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"height": 30,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "主修课程",
+			"fontSize": 18,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层63",
+			"x": 300,
+			"y": 800,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Line",
+			"name": "图层64",
+			"x": 300,
+			"y": 850,
+			"width": 450,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"width": 450,
+			"height": 40,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "英文口语、笔译口译、英文写作、英美文学、导游实务、商务礼仪、文化交流、旅游心理学",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层65",
+			"x": 300,
+			"y": 860,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"height": 30,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "获得荣誉",
+			"fontSize": 18,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层66",
+			"x": 300,
+			"y": 900,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Line",
+			"name": "图层67",
+			"x": 300,
+			"y": 950,
+			"width": 450,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"width": 450,
+			"height": 80,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "1.大学—直担任班长，荣获“优秀班干\"。\n2.在校园创业者协会担任“宣传部长\"。\n3.2011年荣获第四届全国大学生广告艺术设计大赛江西赛区平面作品类三等奖。",
+			"fontSize": 11,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层68",
+			"x": 300,
+			"y": 960,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Rect",
+			"name": "图层26",
+			"zIndex": 1,
+			"x": 100,
+			"y": 910,
+			"width": 100,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层25",
+			"zIndex": 1,
+			"x": 100,
+			"y": 895,
+			"width": 100,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层24",
+			"zIndex": 1,
+			"x": 100,
+			"y": 880,
+			"width": 100,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层23",
+			"zIndex": 1,
+			"x": 100,
+			"y": 865,
+			"width": 100,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层22",
+			"zIndex": 1,
+			"x": 100,
+			"y": 790,
+			"width": 100,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层21",
+			"zIndex": 1,
+			"x": 100,
+			"y": 775,
+			"width": 100,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层20",
+			"zIndex": 1,
+			"x": 100,
+			"y": 760,
+			"width": 100,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层19",
+			"zIndex": 1,
+			"x": 100,
+			"y": 745,
+			"width": 100,
+			"height": 10,
+			"draggable": true,
+			"editable": true,
+			"stroke": [
+				{
+					"type": "solid",
+					"color": "rgba(0, 0, 0, 0.66)"
+				}
+			]
+		}
+	]
+}
