@@ -16,14 +16,6 @@
             <span class="title">{{ item.name }}</span>
           </li>
         </ul>
-        <help>
-          <ul class="b-classify-wrap">
-            <li :class="['b-classify-item']">
-              <icon-question-circle class="icon" />
-              <span class="title">帮助</span>
-            </li>
-          </ul>
-        </help>
       </div>
       <div ref="widgetWrap" class="s-widget-wrap">
         <temp-list-wrap
@@ -39,21 +31,13 @@
           :active="+activeWidgetClassify === 2"
         />
       </div>
-      <!-- <div v-show="active" class="s-side-wrap">
-              <a-tooltip effect="dark" content="收起侧边栏" placement="right">
-                  <div class="pack__up" @click="active = false"></div>
-              </a-tooltip>
-          </div> -->
     </div>
   </a-layout-sider>
 </template>
 <script setup lang="ts">
 import TempListWrap from "./wrap/TempListWrap.vue";
 import TextListWrap from "./wrap/TextListWrap.vue";
-import ImageListWrap from "./wrap/ImageListWrap.vue";
 import BackgroundWrap from "./wrap/BackgroundWrap.vue";
-import GraphListWrap from "./wrap/GraphListWrap.vue";
-import Help from "@/views/Editor/layouts/panel/leftPanel/help.vue";
 
 const widgetClassifyList = [
   {
@@ -61,41 +45,16 @@ const widgetClassifyList = [
     icon: "icon-apps",
     show: false,
   },
-  // {
-  //     name: '素材',
-  //     icon: 'icon-common',
-  //     show: false,
-  // },
   {
     name: "文字",
     icon: "icon-edit",
     show: false,
   },
-  // {
-  //     name: '图片',
-  //     icon: 'icon-image',
-  //     show: false,
-  // },
   {
     name: "背景",
     icon: "icon-mosaic",
     show: false,
   },
-  // {
-  //     name: '工具',
-  //     icon: 'icon-qrcode',
-  //     show: false,
-  // },
-  // {
-  //     name: 'AI',
-  //     icon: 'icon-robot',
-  //     show: false,
-  // },
-  // {
-  //     name: '我的',
-  //     icon: 'icon-user',
-  //     show: false,
-  // },
 ];
 const activeWidgetClassify = ref(0);
 const clickClassify = (index: number) => {

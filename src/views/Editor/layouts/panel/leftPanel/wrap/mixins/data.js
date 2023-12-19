@@ -20,7 +20,44 @@ export function pageData() {
 
 export function textData() {
   const page = {
-    dataList: [],
+    dataList: [
+      {
+        id: 1,
+        json: {
+          tag: "Text",
+          text: "基础大标题",
+          fontSize: 21,
+          fontWeight: "normal",
+        },
+        class: 'big-h',
+        state: 1,
+        title: "基础大标题",
+      },
+      {
+        id: 2,
+        json: {
+          tag: "Text",
+          text: "基础小标题",
+          fontSize: 18,
+          fontWeight: "normal",
+        },
+        class: 'mid-h',
+        state: 1,
+        title: "基础小标题",
+      },
+      {
+        id: 3,
+        json: {
+          tag: "Text",
+          text: "这里是用来作为正文使用的字段，建议您在使用的过程中使用较长的文字，如：工作经历、产出等",
+          fontSize: 11,
+          fontWeight: "medium",
+        },
+        class: 'main-text',
+        state: 1,
+        title: "基础正文",
+      },
+    ],
     noMore: false
   }
   return {

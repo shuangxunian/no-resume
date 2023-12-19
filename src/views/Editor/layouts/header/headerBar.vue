@@ -163,7 +163,7 @@ const iconClick = (item: any) => {
       json: {
         tag: "Text",
         text: "这里是用来作为正文使用的字段，建议您在使用的过程中使用较长的文字，如：工作经历、产出等",
-        fontSize: 10,
+        fontSize: 11,
         fontWeight: "normal",
       },
     })
@@ -183,7 +183,7 @@ const iconClick = (item: any) => {
     })
   } else if (item.type === 'img') {
     addImg({
-      title: "+ 添加直线",
+      title: "+ 添加图片",
       json: {
         tag: "Img",
       },
