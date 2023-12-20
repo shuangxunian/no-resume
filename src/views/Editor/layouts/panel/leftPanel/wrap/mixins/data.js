@@ -1,5 +1,6 @@
 import data1 from '@/assets/data/modelData/1.json'
 import data2 from '@/assets/data/modelData/2.json'
+import data3 from '@/assets/data/modelData/3.json'
 
 export function pageData() {
   const page = {
@@ -17,6 +18,13 @@ export function pageData() {
         json: data2,
         state: 1,
         title: "基础模板2",
+      },
+      {
+        cover:  "https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/19/65817e07d35ab.png",
+        id: 3,
+        json: data3,
+        state: 1,
+        title: "基础模板3",
       },
     ],
     noMore: false

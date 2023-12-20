@@ -93,7 +93,7 @@
 		},
 		{
 			"tag": "Text",
-			"width": 150,
+			"width": 170,
 			"padding": [
 				0,
 				0,
@@ -150,7 +150,7 @@
 				"value": 150
 			},
 			"name": "图层5",
-			"x": 320,
+			"x": 340,
 			"y": 70,
 			"draggable": true,
 			"editable": true
@@ -182,7 +182,7 @@
 				"value": 150
 			},
 			"name": "图层6",
-			"x": 400,
+			"x": 420,
 			"y": 70,
 			"draggable": true,
 			"editable": true
@@ -221,7 +221,7 @@
 		},
 		{
 			"tag": "Text",
-			"width": 150,
+			"width": 170,
 			"padding": [
 				0,
 				0,
@@ -278,7 +278,7 @@
 				"value": 150
 			},
 			"name": "图层9",
-			"x": 320,
+			"x": 340,
 			"y": 100,
 			"draggable": true,
 			"editable": true
@@ -310,7 +310,7 @@
 				"value": 150
 			},
 			"name": "图层10",
-			"x": 400,
+			"x": 420,
 			"y": 100,
 			"draggable": true,
 			"editable": true
@@ -349,7 +349,7 @@
 		},
 		{
 			"tag": "Text",
-			"width": 150,
+			"width": 170,
 			"padding": [
 				0,
 				0,
@@ -406,7 +406,7 @@
 				"value": 150
 			},
 			"name": "图层13",
-			"x": 320,
+			"x": 340,
 			"y": 130,
 			"draggable": true,
 			"editable": true
@@ -438,13 +438,14 @@
 				"value": 150
 			},
 			"name": "图层14",
-			"x": 400,
+			"x": 420,
 			"y": 130,
 			"draggable": true,
 			"editable": true
 		},
 		{
 			"tag": "Text",
+			"width": 70,
 			"padding": [
 				0,
 				0,
@@ -470,7 +471,500 @@
 			},
 			"name": "图层15",
 			"x": 70,
-			"y": 50,
+			"y": 160,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 170,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "shuangxunian@gmail.com",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层16",
+			"x": 150,
+			"y": 160,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "毕业院校：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层17",
+			"x": 340,
+			"y": 160,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 150,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "北京大学",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层18",
+			"x": 420,
+			"y": 160,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "住      址：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层19",
+			"x": 70,
+			"y": 190,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 170,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "浙江省杭州市滨江区",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层20",
+			"x": 150,
+			"y": 190,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "学历：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层21",
+			"x": 340,
+			"y": 190,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 150,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "本科",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层22",
+			"x": 420,
+			"y": 190,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 70,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "求职意向：",
+			"fontSize": 14,
+			"fontWeight": "bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层23",
+			"x": 70,
+			"y": 220,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 170,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "前端开发",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层24",
+			"x": 150,
+			"y": 220,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Image",
+			"url": "https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/14/657aba4355874.png",
+			"width": 153,
+			"height": 170,
+			"name": "图层25",
+			"x": 570,
+			"y": 70,
+			"draggable": true,
+			"editable": true,
+			"fill": {
+				"type": "image",
+				"mode": "strench",
+				"url": "https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/14/657aba4355874.png"
+			}
+		},
+		{
+			"tag": "Rect",
+			"name": "图层26",
+			"x": 48,
+			"y": 260,
+			"width": 697,
+			"height": 20,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(216, 216, 216, 1)"
+				}
+			]
+		},
+		{
+			"tag": "Rect",
+			"name": "图层27",
+			"x": 48,
+			"y": 260,
+			"width": 100,
+			"height": 20,
+			"draggable": true,
+			"editable": true,
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(151,151,151,1)"
+				}
+			]
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(255, 255, 255, 1)"
+				}
+			],
+			"text": "教育背景",
+			"fontSize": 16,
+			"fontWeight": "semi-bold",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层28",
+			"x": 68,
+			"y": 258,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "2017.07-2021.06",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层29",
+			"x": 60,
+			"y": 290,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "北京大学",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层30",
+			"x": 300,
+			"y": 290,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "计算机科学",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层31",
+			"x": 540,
+			"y": 290,
+			"draggable": true,
+			"editable": true
+		},
+		{
+			"tag": "Text",
+			"width": 633,
+			"height": 80,
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"fill": [
+				{
+					"type": "solid",
+					"color": "rgba(0,0,0,1)"
+				}
+			],
+			"text": "主修课程：\n程序设计基础、数据结构与算法、操作系统、编译原理、数据库系统、算法分析、软件工程、离散数学、电路与电子学、数字逻辑和数字系统、计算机组成原理、计算机系统结构、计算机网络原理等。",
+			"fontSize": 14,
+			"fontWeight": "normal",
+			"letterSpacing": {
+				"type": "px",
+				"value": 0
+			},
+			"lineHeight": {
+				"type": "percent",
+				"value": 150
+			},
+			"name": "图层32",
+			"x": 70,
+			"y": 310,
 			"draggable": true,
 			"editable": true
 		}
