@@ -20,7 +20,7 @@ export function pageData() {
         title: "基础模板2",
       },
       {
-        cover:  "https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/19/65817e07d35ab.png",
+        cover:  "https://www.听闻.cn:5244/d/本地/阿里云盘资料备份共享/图片/图床/2023/12/20/6582b24ad1ad7.png",
         id: 3,
         json: data3,
         state: 1,
