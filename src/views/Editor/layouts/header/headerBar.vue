@@ -10,15 +10,6 @@
           <span @click="importJsonFile">+</span>
         </a-tooltip>
       </div>
-      <div
-        class="icon-box"
-        :class="nowSelectOp.type === 'ruler' ? 'select-icon-box' : ''"
-        @click="selectOp(-1)"
-      >
-        <a-tooltip effect="dark" content="标尺" mini>
-          <i class="iconfont icon-biaochi"></i>
-        </a-tooltip>
-      </div>
 
       <a-divider direction="vertical" />
       <div
@@ -54,10 +45,7 @@ import SaveOper from "./right/saveOper.vue";
 import { selectFiles } from "@/utils/designUtil";
 
 Platform.image.suffix = "";
-const {  canvas, keybinding, editor } = useEditor();
-const changeLineGuides = () => {
-  keybinding.trigger("shift+r");
-}
+const {  canvas, editor } = useEditor();
 const iconList = ref([
   { name: "icon-24gl-pointer", content: "选择", type: "point" },
   { name: "icon-editor-text", content: "文字", type: "text" },
@@ -72,12 +60,8 @@ const nowSelectOp = ref({
 })
 
 const selectOp = (item: any) => {
-  if (item === -1) {
-    changeLineGuides()
-  } else {
-    nowSelectOp.value = item
-    iconClick(item)
-  }
+  nowSelectOp.value = item
+  iconClick(item)
 }
 
 const gotoGithub = () => {
