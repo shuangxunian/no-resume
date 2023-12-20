@@ -5,13 +5,9 @@
       <h1 class="title">不做简历</h1>
     </div>
     <div class="mid">
-      <div
-        class="icon-box"
-        :class="nowSelectOp.type === 'ruler' ? 'select-icon-box' : ''"
-        @click="selectOp(-1)"
-      >
-        <a-tooltip effect="dark" content="标尺" mini>
-          <i class="iconfont icon-biaochi"></i>
+      <div class="icon-box">
+        <a-tooltip effect="dark" content="导入" mini>
+          <span @click="importJsonFile">+</span>
         </a-tooltip>
       </div>
 
@@ -27,7 +23,6 @@
           <i
             class="iconfont"
             :class="item.name"
-            @dragstart="dragStart($event, item)"
           ></i>
         </a-tooltip>
       </div>
@@ -47,41 +42,41 @@ import { Platform, Group, Text, Line, Rect, Image } from "leafer-ui";
 import { getDefaultName } from "@/views/Editor/utils/utils";
 import Zoom from "./left/zoom.vue";
 import SaveOper from "./right/saveOper.vue";
+import { selectFiles } from "@/utils/designUtil";
 
 Platform.image.suffix = "";
-const {  keybinding, editor } = useEditor();
-
-const changeLineGuides = () => {
-  keybinding.trigger("shift+r");
-}
-const dragStart = (e: Element, item: any) => {}
-
+const {  canvas, editor } = useEditor();
 const iconList = ref([
   { name: "icon-24gl-pointer", content: "选择", type: "point" },
-  // { name: 'icon-bianji', content: '铅笔', type: 'pencil' },
   { name: "icon-editor-text", content: "文字", type: "text" },
   { name: "icon-fengexian", content: "线", type: "line" },
   { name: "icon-kuang", content: "框", type: "box" },
   { name: "icon-tupian", content: "图片", type: "img" },
 ]);
-
 const nowSelectOp = ref({
   name: "icon-24gl-pointer",
   content: "选择",
   type: "point",
 })
 
-function selectOp(item: any) {
-  if (item === -1) {
-    changeLineGuides()
-  } else {
-    nowSelectOp.value = item
-    iconClick(item)
-  }
+const selectOp = (item: any) => {
+  nowSelectOp.value = item
+  iconClick(item)
 }
 
-function gotoGithub() {
+const gotoGithub = () => {
   window.open("https://github.com/shuangxunian/no-resume", "_blank");
+}
+
+const importJsonFile = () => {
+  selectFiles({ accept: ".json" }).then((files: any) => {
+    const [file] = files
+    const reader = new FileReader()
+    reader.readAsText(file, "UTF-8")
+    reader.onload = () => {
+      canvas.importJsonToCurrentPage(JSON.parse(<string>reader.result), true)
+    }
+  })
 }
 
 const addText = (item: any) => {
@@ -215,6 +210,7 @@ const iconClick = (item: any) => {
       border-radius: 8px;
       line-height: 32px;
       text-align: center;
+      cursor: pointer;
     }
     .select-icon-box {
       background-color: #e9e7ef;

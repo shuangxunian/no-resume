@@ -6,12 +6,6 @@
             </template>
             预览
         </a-button>
-        <a-button type="primary" @click="save()">
-            <template #icon>
-                <icon-save />
-            </template>
-            保存
-        </a-button>
         <a-dropdown-button type="primary" @select="handleSelect" @click="handleSelect">
             <icon-download class="m-r-8px"/>下载作品
             <template #icon>
