@@ -1,7 +1,8 @@
 import {createDecorator} from '@/views/Editor/core/instantiation/instantiation'
-import {ILeafer, IPointData, IUI, IUIInputData} from "@leafer-ui/interface";
+import {ICanvasContext2D, ILeafer, IPointData, IUI, IUIInputData} from "@leafer-ui/interface";
 import {App, ChildEvent, Frame, Leafer, PropertyEvent, ResizeEvent} from "leafer-ui";
 import '@leafer-in/editor'
+import {Ruler} from 'leafer-x-ruler'
 import {IWorkspacesService, WorkspacesService} from "@/views/Editor/core/workspaces/workspacesService";
 import {EventbusService, IEventbusService} from "@/views/Editor/core/eventbus/eventbusService";
 import {typeUtil} from "@/views/Editor/utils/utils";
@@ -21,6 +22,7 @@ type ExtendedOption = {
 }
 
 type ObjectType =
+    // 官方元素tag
     'UI'
     | 'App'
     | 'Leafer'
@@ -34,6 +36,8 @@ type ObjectType =
     | 'Text'
     | 'Pen'
     | 'HTMLText'
+    // 自定义元素tag
+    | 'Image2'
 
 interface Page {
     children: any
@@ -79,6 +83,10 @@ export class MLeaferCanvas {
     private _app?: App
     // 内容层
     private _contentLayer?: ILeafer
+
+    // 标尺
+    public ruler: Ruler
+
     // 内容画板
     private _contentFrame: Frame
     // 操作选项
@@ -93,24 +101,23 @@ export class MLeaferCanvas {
     public readonly ref = {
         zoom: ref(toFixed(this.getZoom(), 2)),
         _children: computed(() => this.contentFrame.children),
+        // 是否启用辅助线
+        enabledRuler: computed(() => this.ruler.enabled),
     }
 
     public backgroundColor?: string
-
-    // 是否启用辅助线
-    public enabledRuler: boolean = true
 
     constructor(
         @IWorkspacesService private readonly workspacesService: WorkspacesService,
         @IEventbusService private readonly eventbus: EventbusService,
     ) {
         const app = new App({
-            width: 793,
-            height: 1122,
+            width: 800,
+            height: 800,
             editor: {},
         })
         this.wrapperEl = app.canvas.view
-
+        this.ruler = new Ruler(app)
         const contentLayer = app.tree
         contentLayer.fill = 'transparent'
         // TODO 2023-11-10 等待修复Leafer的fill的功能后放开下面注释启用背景填充
@@ -118,7 +125,6 @@ export class MLeaferCanvas {
         //     type:'image',
         //     url:'https://www.toptal.com/designers/subtlepatterns/uploads/white_carbon.png'
         // }
-
         this._contentLayer = contentLayer
         this._app = app
         this.pageId = this.workspacesService.getCurrentId()
@@ -137,6 +143,7 @@ export class MLeaferCanvas {
                 this.discardActiveObject()
             }
         })
+
     }
 
     // 工作区 | 页面管理
@@ -233,10 +240,11 @@ export class MLeaferCanvas {
         let initFrameWH = true
         // resize事件
         this.contentLayer.on(ResizeEvent.RESIZE, (e2: ResizeEvent) => {
-            // if (initFrameWH){
-            //     this.contentFrame.width  = e2.width
-            //     this.contentFrame.height  = e2.height
-            // }
+            if (initFrameWH){
+                // 第一次初始化画布时设置画布宽高为可视区域大小
+                this.contentFrame.width  = e2.width
+                this.contentFrame.height  = e2.height
+            }
             this.eventbus.emit('layoutResizeEvent', e2)
             initFrameWH = false
         })
@@ -374,6 +382,13 @@ export class MLeaferCanvas {
         this.selectObject(_child)
         this.childrenEffect()
     }
+    /**
+     * 添加元素
+     */
+    public addMany(..._children: IUI[]) {
+        this.contentFrame.addMany(..._children)
+        this.childrenEffect()
+    }
 
     /**
      * 重新加载json数据（一般用于切换页面）
@@ -471,6 +486,7 @@ export class MLeaferCanvas {
             this.ref._children.effect.run()
         }
     }
+
 
     public setZoom(scale: number | undefined) {
         // TODO 处理初次切换页面时页面展示的缩放值不匹配的问题
