@@ -45,7 +45,7 @@ const treeRef = ref<TreeInstance>();
 // svg缓存
 const svgCacheMap = new Map<string, string>();
 
-const getSvg = (object) => {
+const getSvg = (object: any) => {
   if (canvas.objectIsTypes(object, "Text")) {
     return IText;
   } else if (canvas.objectIsTypes(object, "Group", "Frame")) {
@@ -59,6 +59,7 @@ const getSvg = (object) => {
   } else if (canvas.objectIsTypes(object, "HTMLText")) {
     return IHtmlTextSvg;
   } else {
+    return IPenSvg;
   }
 };
 
