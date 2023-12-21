@@ -24,7 +24,7 @@
       :update-color="updateColor"
     />
 
-    <div class="preview">
+    <!-- <div class="preview">
       <Preview
         :red="red"
         :green="green"
@@ -39,7 +39,7 @@
         <Hue :hue="hue" :saturation="saturation" :value="value" :update-color="updateColor" />
         <Alpha :alpha="alpha" :red="red" :green="green" :blue="blue" :update-color="updateColor" />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

@@ -399,6 +399,7 @@ export class Color {
   }
 
   static hex2color(hex: string, a: number) {
+    console.log('in it')
     const color = tinyColor(hex);
     color.setAlpha(a);
     return color.toHexString();
