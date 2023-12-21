@@ -19,7 +19,7 @@ const myPlugin = createEditorPlugin((editor) => {
       console.log('myPlugin dispose')
     },
     slots: {
-      rightPanel: [TestSlot],
+      // rightPanel: [TestSlot],
     },
   }
 })
