@@ -103,6 +103,7 @@ export class PenDraw{
     }
 
     public clearSignature() {
-        this.pen?.removeAll();
+        // this.pen?.removeAll();
+        this.pen?.clear();
     }
 }
