@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@leafer-in/editor": "^1.0.0-rc.8",
-    "@leafer-in/html": "^1.0.0-rc.8",
-    "@leafer-ui/core": "^1.0.0-rc.8",
-    "@leafer-ui/interface": "^1.0.0-rc.8",
+    "@leafer-in/editor": "^1.0.0-rc.12",
+    "@leafer-in/html": "^1.0.0-rc.12",
+    "@leafer-ui/core": "^1.0.0-rc.12",
+    "@leafer-ui/interface": "^1.0.0-rc.12",
     "leafer-x-ruler": "^1.0.0",
     "@scena/guides": "^0.29.2",
     "@unocss/reset": "^0.57.7",
@@ -20,7 +20,7 @@
     "ag-psd": "^17.0.6",
     "axios": "^1.6.2",
     "convert-units": "^3.0.0-beta.5",
-    "leafer-ui": "1.0.0-rc.8",
+    "leafer-ui": "1.0.0-rc.12",
     "lodash": "^4.17.21",
     "mousetrap": "^1.6.5",
     "number-precision": "^1.6.0",

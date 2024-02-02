@@ -22,7 +22,8 @@ export async function parseMask(index: number, groups: any, parent: IUI) {
     group.name = '组' + group.innerId
     let layerMask2 = await parseImage(groups[groups.length - 1])
     parent.add(group)
-    layerMask.isMask = true
+    // layerMask.isMask = true
+    layerMask.mask = true
     group.add(layerMask2)
     group.add(layerMask)
 
